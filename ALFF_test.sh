@@ -16,7 +16,7 @@ bold_bp=${bdir}/pp_bp_fMRI.nii.gz
 
 ################################################################
 # Compute ALFF and fALFF - C-PAC style
-# http://fcp-indi.github.io/docs/developer/workflows/alff.html
+# https://fcp-indi.github.io/docs/latest/user/alff
 
 # ALFF
 3dTstat -stdev -mask mask.nii.gz -prefix alff_cpac.nii.gz ${bold_bp}
